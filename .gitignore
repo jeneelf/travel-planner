@@ -41,3 +41,9 @@ example
 # generated native folders
 /ios
 /android
+
+# Private configuration and local backups
+.env
+.env.*
+!.env.example
+/backups/
